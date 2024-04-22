@@ -1,9 +1,11 @@
-import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
-        Scanner scn = new Scanner(System.in);
-        String name = scn.next();
-        System.out.println("Hello " + name);
+        System.out.println("*****");
+        System.out.println("   *");
+        System.out.println("  *");
+        System.out.println(" *");
+        System.out.println("*****");
+        
     }
-}
 
+}
