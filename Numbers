@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+     Scanner scn= new Scanner(System.in);
+     int A=scn.nextInt();
+     int B=scn.nextInt();
+     int C=scn.nextInt();
+     int D=scn.nextInt();
+     int E=scn.nextInt();
+     int F=scn.nextInt();
+     int G=scn.nextInt();
+     int ans=(A+B+C)*(D+E+F+G);
+
+     System.out.println(ans);
+     
+    }
+}
